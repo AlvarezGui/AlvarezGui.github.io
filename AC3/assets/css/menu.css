@@ -1,0 +1,28 @@
+.menu{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+
+.menu-open{
+    transform: translateX(0);
+}
+
+.menu-iten{
+    padding: 20px 15px;
+    border-bottom:1px solid lightgray ;
+    background-color: #15AD88;
+}
+
+
+.menu-iten-action{
+  color: white;
+  text-transform: capitalize;
+ 
+  font-size: 12px;
+}
+
+
